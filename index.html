@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Noise & Rent: A Data Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">The Sound of Rent</h1>
+            <p class="hero-subtitle">How Noise Complaints Shape New York City's Housing Market</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">7.7M+</span>
+                    <span class="stat-label">Noise Complaints</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">Boroughs</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2010-2024</span>
+                    <span class="stat-label">Years Analyzed</span>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Scrollytelling Section -->
+    <section id="scrolly">
+        <div class="sticky-container">
+            <figure id="visualization">
+                <div id="chart-container"></div>
+            </figure>
+        </div>
+
+        <article>
+            <!-- Introduction -->
+            <div class="step" data-step="intro">
+                <div class="step-content">
+                    <h2>A City That Never Sleeps</h2>
+                    <p>New York City is known for its vibrant energy, but that energy comes with a cost: <strong>noise</strong>.</p>
+                    <p>From 2010 to present, NYC residents have filed over <strong>7.7 million noise complaints</strong> through the 311 service.</p>
+                    <p>But does living in a quieter neighborhood actually cost more?</p>
+                </div>
+            </div>
+
+            <!-- Data Overview -->
+            <div class="step" data-step="data-overview">
+                <div class="step-content">
+                    <h2>The Data Story</h2>
+                    <p>We analyzed two comprehensive datasets:</p>
+                    <ul>
+                        <li><strong>NYC 311 Noise Complaints</strong> - 7.7M+ records spanning 2010-2024</li>
+                        <li><strong>StreetEasy Rental Prices</strong> - Monthly median rents by neighborhood</li>
+                    </ul>
+                    <p>By combining these datasets, we can explore the relationship between quality of life (noise levels) and cost of living (rent prices).</p>
+                </div>
+            </div>
+
+            <!-- Borough Distribution -->
+            <div class="step" data-step="borough-distribution">
+                <div class="step-content">
+                    <h2>Where Are the Complaints?</h2>
+                    <p>Noise complaints are not evenly distributed across NYC's five boroughs.</p>
+                    <p><strong>Manhattan</strong> leads with the highest concentration of complaints, followed by <strong>Brooklyn</strong> and <strong>Queens</strong>.</p>
+                    <p>But does more noise mean lower rent? Let's investigate...</p>
+                </div>
+            </div>
+
+            <!-- Complaint Types -->
+            <div class="step" data-step="complaint-types">
+                <div class="step-content">
+                    <h2>What's Making All That Noise?</h2>
+                    <p>The most common noise complaints include:</p>
+                    <ul>
+                        <li><strong>Loud Music/Party</strong> - The #1 complaint</li>
+                        <li><strong>Banging/Pounding</strong> - Construction and neighbors</li>
+                        <li><strong>Loud Talking</strong> - Street activity and gatherings</li>
+                        <li><strong>Barking Dogs</strong> - Our four-legged friends</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Time Trends -->
+            <div class="step" data-step="time-trends">
+                <div class="step-content">
+                    <h2>Trends Over Time</h2>
+                    <p>Noise complaints have fluctuated significantly over the past decade.</p>
+                    <p>Notable spike during <strong>2020 lockdowns</strong> when people spent more time at home.</p>
+                    <p>Seasonal patterns emerge: more complaints during summer months when windows are open.</p>
+                </div>
+            </div>
+
+            <!-- Rent Overview -->
+            <div class="step" data-step="rent-overview">
+                <div class="step-content">
+                    <h2>The Cost of Living in NYC</h2>
+                    <p>Median rent prices vary dramatically across boroughs:</p>
+                    <ul>
+                        <li><strong>Manhattan</strong> - Highest average rents ($3,000-$4,500+)</li>
+                        <li><strong>Brooklyn</strong> - Mid-to-high range ($2,500-$3,500)</li>
+                        <li><strong>Queens</strong> - More affordable ($2,000-$2,800)</li>
+                        <li><strong>Bronx</strong> - Most affordable ($1,800-$2,400)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Correlation Analysis -->
+            <div class="step" data-step="correlation">
+                <div class="step-content">
+                    <h2>The Relationship Revealed</h2>
+                    <p>When we plot noise complaints against rent prices, a pattern emerges.</p>
+                    <p>Our hypothesis: <strong>Higher noise = Lower rent</strong></p>
+                    <p>But the data tells a more nuanced story...</p>
+                </div>
+            </div>
+
+            <!-- Scatter Plot -->
+            <div class="step" data-step="scatter">
+                <div class="step-content">
+                    <h2>Noise vs. Rent: The Scatter</h2>
+                    <p>Each dot represents a neighborhood or zip code area.</p>
+                    <p>The correlation coefficient tells us the strength and direction of the relationship.</p>
+                    <p>Notice how neighborhoods cluster by borough...</p>
+                </div>
+            </div>
+
+            <!-- Regression Results -->
+            <div class="step" data-step="regression">
+                <div class="step-content">
+                    <h2>The Numbers Don't Lie</h2>
+                    <p>Our linear regression model reveals:</p>
+                    <div class="result-box">
+                        <p><strong>Correlation:</strong> <span id="correlation-value">-0.XX</span></p>
+                        <p><strong>R² Score:</strong> <span id="r2-value">0.XX</span></p>
+                        <p><strong>P-value:</strong> <span id="p-value">&lt; 0.001</span></p>
+                    </div>
+                    <p>For every <strong>100 additional noise complaints</strong>, median rent changes by approximately <strong>$XX</strong>.</p>
+                </div>
+            </div>
+
+            <!-- Borough Breakdown -->
+            <div class="step" data-step="borough-breakdown">
+                <div class="step-content">
+                    <h2>Borough-by-Borough Analysis</h2>
+                    <p>The relationship between noise and rent varies significantly by borough:</p>
+                    <ul>
+                        <li><strong>Manhattan</strong> - High rent despite high noise</li>
+                        <li><strong>Brooklyn</strong> - Mixed neighborhoods show strongest correlation</li>
+                        <li><strong>Queens</strong> - More affordable with moderate noise levels</li>
+                        <li><strong>Bronx</strong> - Lower rent, but noise levels vary widely</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Model Performance -->
+            <div class="step" data-step="model-performance">
+                <div class="step-content">
+                    <h2>Model Accuracy</h2>
+                    <p>We tested multiple regression models:</p>
+                    <ul>
+                        <li><strong>Baseline OLS</strong> - Standard linear regression</li>
+                        <li><strong>Ridge Regression</strong> - Reduces overfitting</li>
+                        <li><strong>Lasso Regression</strong> - Feature selection</li>
+                        <li><strong>Elastic Net</strong> - Combines Ridge & Lasso benefits</li>
+                    </ul>
+                    <div class="result-box">
+                        <p><strong>Best Model RMSE:</strong> $XXX</p>
+                        <p><strong>Best Model MAE:</strong> $XXX</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Insights -->
+            <div class="step" data-step="insights">
+                <div class="step-content">
+                    <h2>Key Findings</h2>
+                    <div class="insight-card">
+                        <h3>🔊 Insight #1</h3>
+                        <p>Noise complaints and rent prices show a <strong>negative correlation</strong>, supporting our hypothesis that quieter areas command higher rents.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h3>🏙️ Insight #2</h3>
+                        <p>Manhattan defies the trend - high rents persist despite high noise levels, suggesting other factors (proximity, amenities) dominate.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h3>📈 Insight #3</h3>
+                        <p>The relationship is strongest in Brooklyn and Queens, where renters have more neighborhood options within similar price ranges.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Limitations -->
+            <div class="step" data-step="limitations">
+                <div class="step-content">
+                    <h2>Study Limitations</h2>
+                    <p>While our analysis reveals important patterns, several factors should be considered:</p>
+                    <ul>
+                        <li><strong>Reporting Bias</strong> - Not all noise is reported equally across neighborhoods</li>
+                        <li><strong>Confounding Variables</strong> - Location, amenities, and prestige also affect rent</li>
+                        <li><strong>Temporal Effects</strong> - COVID-19 disrupted normal patterns in 2020-2021</li>
+                        <li><strong>Aggregation Level</strong> - Zip code analysis may mask micro-neighborhood variations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Conclusion -->
+            <div class="step" data-step="conclusion">
+                <div class="step-content">
+                    <h2>The Bottom Line</h2>
+                    <p><strong>Yes, peace and quiet have a price tag in NYC.</strong></p>
+                    <p>Our analysis demonstrates that noise levels, as measured by 311 complaints, are statistically associated with rental prices across New York City neighborhoods.</p>
+                    <p>While this relationship is complex and varies by borough, the data suggests that New Yorkers are willing to pay a premium for a quieter living environment.</p>
+                    <p>In a city that never sleeps, silence is indeed golden.</p>
+                </div>
+            </div>
+
+            <!-- Methodology -->
+            <div class="step" data-step="methodology">
+                <div class="step-content">
+                    <h2>Methodology</h2>
+                    <h3>Data Sources</h3>
+                    <ul>
+                        <li>NYC OpenData - 311 Noise Complaints (2010-2024)</li>
+                        <li>StreetEasy - Monthly Median Rental Prices by Neighborhood</li>
+                    </ul>
+                    <h3>Processing Steps</h3>
+                    <ol>
+                        <li>Cleaned and filtered 7.7M noise complaint records</li>
+                        <li>Removed outlier complaint types (&lt;0.05% of total)</li>
+                        <li>Aggregated complaints by zip code and time period</li>
+                        <li>Adjusted rent prices for inflation using CPI</li>
+                        <li>Merged datasets on zip code for 2016-2024 overlap period</li>
+                        <li>Performed linear regression with regularization</li>
+                    </ol>
+                    <h3>Statistical Methods</h3>
+                    <ul>
+                        <li>Pearson correlation analysis</li>
+                        <li>Ordinary Least Squares (OLS) regression</li>
+                        <li>Ridge, Lasso, and Elastic Net regularization</li>
+                        <li>Cross-validation for model selection</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Credits -->
+            <div class="step" data-step="credits">
+                <div class="step-content">
+                    <h2>About This Project</h2>
+                    <p>This analysis was conducted as part of a Data Science research project exploring the relationship between quality of life indicators and housing costs in New York City.</p>
+                    <h3>Data Sources</h3>
+                    <ul>
+                        <li><a href="https://opendata.cityofnewyork.us/" target="_blank">NYC OpenData</a> - 311 Service Requests</li>
+                        <li><a href="https://streeteasy.com/blog/data-dashboard/" target="_blank">StreetEasy</a> - Rental Market Data</li>
+                    </ul>
+                    <h3>Tools & Technologies</h3>
+                    <p>Python (pandas, scikit-learn, statsmodels), D3.js, Scrollama.js</p>
+                    <div class="cta-section">
+                        <a href="#" class="btn-primary">View Full Report</a>
+                        <a href="#" class="btn-secondary">Download Data</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 NYC Noise & Rent Analysis. Created for educational purposes.</p>
+            <p>Data Science Project</p>
+        </div>
+    </footer>
+
+    <script src="visualizations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

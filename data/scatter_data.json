@@ -1,0 +1,602 @@
+[
+  {
+    "complaints": 1860,
+    "rent": 1951,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 45732,
+    "rent": 1562,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 17850,
+    "rent": 2535,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 22962,
+    "rent": 1857,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 45131,
+    "rent": 1811,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 2685,
+    "rent": 2281,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 3433,
+    "rent": 2656,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 40188,
+    "rent": 1500,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 20769,
+    "rent": 1513,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 28480,
+    "rent": 1875,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 26658,
+    "rent": 2243,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 19431,
+    "rent": 2780,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 1189,
+    "rent": 2374,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 2899,
+    "rent": 2537,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 32551,
+    "rent": 1878,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 4556,
+    "rent": 2600,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 15502,
+    "rent": 1717,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 9792,
+    "rent": 1917,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 44001,
+    "rent": 2835,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 3612,
+    "rent": 2802,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 24483,
+    "rent": 1909,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 18159,
+    "rent": 1552,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 27531,
+    "rent": 3685,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 20457,
+    "rent": 1884,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 41757,
+    "rent": 2558,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 7873,
+    "rent": 2976,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 38065,
+    "rent": 2388,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 2016,
+    "rent": 2380,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 24247,
+    "rent": 2105,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 18262,
+    "rent": 2369,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 22243,
+    "rent": 2464,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 40976,
+    "rent": 1500,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 49984,
+    "rent": 1620,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 3027,
+    "rent": 4016,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 23002,
+    "rent": 2361,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 13666,
+    "rent": 2635,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 27854,
+    "rent": 2261,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 23662,
+    "rent": 1663,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 49033,
+    "rent": 1500,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 31818,
+    "rent": 1964,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 43530,
+    "rent": 2302,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 9110,
+    "rent": 1969,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 18412,
+    "rent": 2032,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 1206,
+    "rent": 2001,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 24419,
+    "rent": 2715,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 49702,
+    "rent": 2244,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 42523,
+    "rent": 3069,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 19141,
+    "rent": 1992,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 2678,
+    "rent": 1743,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 34827,
+    "rent": 1775,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 28890,
+    "rent": 1796,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 44585,
+    "rent": 1935,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 43557,
+    "rent": 1809,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 30723,
+    "rent": 2011,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 26939,
+    "rent": 2227,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 19047,
+    "rent": 2314,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 22976,
+    "rent": 1700,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 31080,
+    "rent": 3465,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 7776,
+    "rent": 2549,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 10474,
+    "rent": 1853,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 30320,
+    "rent": 2013,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 32968,
+    "rent": 1503,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 1663,
+    "rent": 2056,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 47576,
+    "rent": 3365,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 18675,
+    "rent": 2022,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 24938,
+    "rent": 2362,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 21080,
+    "rent": 1500,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 27736,
+    "rent": 1723,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 48323,
+    "rent": 2581,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 39623,
+    "rent": 1500,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 47717,
+    "rent": 3051,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 39559,
+    "rent": 1913,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 33970,
+    "rent": 1543,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 13688,
+    "rent": 2629,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 41545,
+    "rent": 1500,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 45542,
+    "rent": 2295,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 28848,
+    "rent": 3234,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 45357,
+    "rent": 2009,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 27370,
+    "rent": 1985,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 48011,
+    "rent": 1621,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 35754,
+    "rent": 2652,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 12411,
+    "rent": 2585,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 9680,
+    "rent": 2242,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 12111,
+    "rent": 3018,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 9155,
+    "rent": 2380,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 48254,
+    "rent": 2431,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 31306,
+    "rent": 2448,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  },
+  {
+    "complaints": 32065,
+    "rent": 2002,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 17371,
+    "rent": 3797,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 3049,
+    "rent": 3672,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 21932,
+    "rent": 1516,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 8158,
+    "rent": 1926,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 43642,
+    "rent": 3170,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 5499,
+    "rent": 2096,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 13183,
+    "rent": 3895,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 33711,
+    "rent": 2081,
+    "borough": "Queens",
+    "color": "#16213e"
+  },
+  {
+    "complaints": 49354,
+    "rent": 1500,
+    "borough": "Bronx",
+    "color": "#1a1a2e"
+  },
+  {
+    "complaints": 17482,
+    "rent": 3377,
+    "borough": "Manhattan",
+    "color": "#e94560"
+  },
+  {
+    "complaints": 3961,
+    "rent": 1897,
+    "borough": "Staten Island",
+    "color": "#533483"
+  },
+  {
+    "complaints": 3869,
+    "rent": 2623,
+    "borough": "Brooklyn",
+    "color": "#0f3460"
+  }
+]

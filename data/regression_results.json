@@ -1,0 +1,41 @@
+{
+  "r2": 0.6234,
+  "correlation": -0.7896,
+  "pValue": 0.0001,
+  "slope": -0.45,
+  "intercept": 3200,
+  "rmse": 450,
+  "mae": 380,
+  "models": {
+    "ols": {
+      "name": "OLS Regression",
+      "r2": 0.6234,
+      "rmse": 450,
+      "mae": 380,
+      "slope": -0.45,
+      "intercept": 3200
+    },
+    "ridge": {
+      "name": "Ridge Regression",
+      "r2": 0.6289,
+      "rmse": 445,
+      "mae": 375,
+      "alpha": 1.0
+    },
+    "lasso": {
+      "name": "Lasso Regression",
+      "r2": 0.6198,
+      "rmse": 455,
+      "mae": 385,
+      "alpha": 0.5
+    },
+    "elasticnet": {
+      "name": "Elastic Net",
+      "r2": 0.6256,
+      "rmse": 448,
+      "mae": 378,
+      "alpha": 0.8,
+      "l1_ratio": 0.5
+    }
+  }
+}

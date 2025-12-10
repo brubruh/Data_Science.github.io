@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Noise - Residential",
+    "count": 3967471
+  },
+  {
+    "type": "Noise - Street/Sidewalk",
+    "count": 1475827
+  },
+  {
+    "type": "Noise",
+    "count": 762720
+  },
+  {
+    "type": "Noise - Commercial",
+    "count": 695351
+  },
+  {
+    "type": "Noise - Vehicle",
+    "count": 582414
+  },
+  {
+    "type": "Noise - Helicopter",
+    "count": 179029
+  },
+  {
+    "type": "Noise - Park",
+    "count": 85474
+  },
+  {
+    "type": "Noise - House of Worship",
+    "count": 19066
+  },
+  {
+    "type": "Noise Survey",
+    "count": 16273
+  },
+  {
+    "type": "Collection Truck Noise",
+    "count": 2015
+  }
+]

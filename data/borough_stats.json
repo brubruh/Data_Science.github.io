@@ -1,0 +1,38 @@
+[
+  {
+    "name": "BRONX",
+    "complaints": 1907214,
+    "avgRent": 2500,
+    "color": "#666666"
+  },
+  {
+    "name": "BROOKLYN",
+    "complaints": 2061743,
+    "avgRent": 2500,
+    "color": "#666666"
+  },
+  {
+    "name": "MANHATTAN",
+    "complaints": 2199522,
+    "avgRent": 2500,
+    "color": "#666666"
+  },
+  {
+    "name": "QUEENS",
+    "complaints": 1432770,
+    "avgRent": 2500,
+    "color": "#666666"
+  },
+  {
+    "name": "STATEN ISLAND",
+    "complaints": 184176,
+    "avgRent": 2500,
+    "color": "#666666"
+  },
+  {
+    "name": "Unspecified",
+    "complaints": 215,
+    "avgRent": 2500,
+    "color": "#666666"
+  }
+]

@@ -1,0 +1,762 @@
+[
+  {
+    "date": "2010-01",
+    "complaints": 14213
+  },
+  {
+    "date": "2010-02",
+    "complaints": 13293
+  },
+  {
+    "date": "2010-03",
+    "complaints": 14927
+  },
+  {
+    "date": "2010-04",
+    "complaints": 18392
+  },
+  {
+    "date": "2010-05",
+    "complaints": 21867
+  },
+  {
+    "date": "2010-06",
+    "complaints": 17352
+  },
+  {
+    "date": "2010-07",
+    "complaints": 15571
+  },
+  {
+    "date": "2010-08",
+    "complaints": 18327
+  },
+  {
+    "date": "2010-09",
+    "complaints": 19527
+  },
+  {
+    "date": "2010-10",
+    "complaints": 19145
+  },
+  {
+    "date": "2010-11",
+    "complaints": 15623
+  },
+  {
+    "date": "2010-12",
+    "complaints": 12757
+  },
+  {
+    "date": "2011-01",
+    "complaints": 13386
+  },
+  {
+    "date": "2011-02",
+    "complaints": 12771
+  },
+  {
+    "date": "2011-03",
+    "complaints": 14739
+  },
+  {
+    "date": "2011-04",
+    "complaints": 16309
+  },
+  {
+    "date": "2011-05",
+    "complaints": 20150
+  },
+  {
+    "date": "2011-06",
+    "complaints": 18270
+  },
+  {
+    "date": "2011-07",
+    "complaints": 17608
+  },
+  {
+    "date": "2011-08",
+    "complaints": 16987
+  },
+  {
+    "date": "2011-09",
+    "complaints": 20635
+  },
+  {
+    "date": "2011-10",
+    "complaints": 18998
+  },
+  {
+    "date": "2011-11",
+    "complaints": 16620
+  },
+  {
+    "date": "2011-12",
+    "complaints": 16489
+  },
+  {
+    "date": "2012-01",
+    "complaints": 15672
+  },
+  {
+    "date": "2012-02",
+    "complaints": 15029
+  },
+  {
+    "date": "2012-03",
+    "complaints": 18979
+  },
+  {
+    "date": "2012-04",
+    "complaints": 19172
+  },
+  {
+    "date": "2012-05",
+    "complaints": 22853
+  },
+  {
+    "date": "2012-06",
+    "complaints": 21675
+  },
+  {
+    "date": "2012-07",
+    "complaints": 19085
+  },
+  {
+    "date": "2012-08",
+    "complaints": 20920
+  },
+  {
+    "date": "2012-09",
+    "complaints": 24010
+  },
+  {
+    "date": "2012-10",
+    "complaints": 19548
+  },
+  {
+    "date": "2012-11",
+    "complaints": 13983
+  },
+  {
+    "date": "2012-12",
+    "complaints": 17702
+  },
+  {
+    "date": "2013-01",
+    "complaints": 17060
+  },
+  {
+    "date": "2013-02",
+    "complaints": 15919
+  },
+  {
+    "date": "2013-03",
+    "complaints": 19575
+  },
+  {
+    "date": "2013-04",
+    "complaints": 20897
+  },
+  {
+    "date": "2013-05",
+    "complaints": 26202
+  },
+  {
+    "date": "2013-06",
+    "complaints": 25964
+  },
+  {
+    "date": "2013-07",
+    "complaints": 19769
+  },
+  {
+    "date": "2013-08",
+    "complaints": 26459
+  },
+  {
+    "date": "2013-09",
+    "complaints": 25121
+  },
+  {
+    "date": "2013-10",
+    "complaints": 23229
+  },
+  {
+    "date": "2013-11",
+    "complaints": 20221
+  },
+  {
+    "date": "2013-12",
+    "complaints": 18964
+  },
+  {
+    "date": "2014-01",
+    "complaints": 18250
+  },
+  {
+    "date": "2014-02",
+    "complaints": 17770
+  },
+  {
+    "date": "2014-03",
+    "complaints": 22364
+  },
+  {
+    "date": "2014-04",
+    "complaints": 24914
+  },
+  {
+    "date": "2014-05",
+    "complaints": 35353
+  },
+  {
+    "date": "2014-06",
+    "complaints": 37079
+  },
+  {
+    "date": "2014-07",
+    "complaints": 31281
+  },
+  {
+    "date": "2014-08",
+    "complaints": 36643
+  },
+  {
+    "date": "2014-09",
+    "complaints": 31933
+  },
+  {
+    "date": "2014-10",
+    "complaints": 31022
+  },
+  {
+    "date": "2014-11",
+    "complaints": 26334
+  },
+  {
+    "date": "2014-12",
+    "complaints": 24833
+  },
+  {
+    "date": "2015-01",
+    "complaints": 23379
+  },
+  {
+    "date": "2015-02",
+    "complaints": 20435
+  },
+  {
+    "date": "2015-03",
+    "complaints": 24834
+  },
+  {
+    "date": "2015-04",
+    "complaints": 31480
+  },
+  {
+    "date": "2015-05",
+    "complaints": 43733
+  },
+  {
+    "date": "2015-06",
+    "complaints": 36673
+  },
+  {
+    "date": "2015-07",
+    "complaints": 35180
+  },
+  {
+    "date": "2015-08",
+    "complaints": 37774
+  },
+  {
+    "date": "2015-09",
+    "complaints": 36980
+  },
+  {
+    "date": "2015-10",
+    "complaints": 33214
+  },
+  {
+    "date": "2015-11",
+    "complaints": 30516
+  },
+  {
+    "date": "2015-12",
+    "complaints": 30226
+  },
+  {
+    "date": "2016-01",
+    "complaints": 25519
+  },
+  {
+    "date": "2016-02",
+    "complaints": 24767
+  },
+  {
+    "date": "2016-03",
+    "complaints": 30912
+  },
+  {
+    "date": "2016-04",
+    "complaints": 36933
+  },
+  {
+    "date": "2016-05",
+    "complaints": 44773
+  },
+  {
+    "date": "2016-06",
+    "complaints": 43886
+  },
+  {
+    "date": "2016-07",
+    "complaints": 39684
+  },
+  {
+    "date": "2016-08",
+    "complaints": 34364
+  },
+  {
+    "date": "2016-09",
+    "complaints": 41158
+  },
+  {
+    "date": "2016-10",
+    "complaints": 37637
+  },
+  {
+    "date": "2016-11",
+    "complaints": 29711
+  },
+  {
+    "date": "2016-12",
+    "complaints": 28948
+  },
+  {
+    "date": "2017-01",
+    "complaints": 29410
+  },
+  {
+    "date": "2017-02",
+    "complaints": 26727
+  },
+  {
+    "date": "2017-03",
+    "complaints": 27546
+  },
+  {
+    "date": "2017-04",
+    "complaints": 41119
+  },
+  {
+    "date": "2017-05",
+    "complaints": 42751
+  },
+  {
+    "date": "2017-06",
+    "complaints": 47059
+  },
+  {
+    "date": "2017-07",
+    "complaints": 44445
+  },
+  {
+    "date": "2017-08",
+    "complaints": 41734
+  },
+  {
+    "date": "2017-09",
+    "complaints": 45426
+  },
+  {
+    "date": "2017-10",
+    "complaints": 41776
+  },
+  {
+    "date": "2017-11",
+    "complaints": 29386
+  },
+  {
+    "date": "2017-12",
+    "complaints": 28380
+  },
+  {
+    "date": "2018-01",
+    "complaints": 27086
+  },
+  {
+    "date": "2018-02",
+    "complaints": 26714
+  },
+  {
+    "date": "2018-03",
+    "complaints": 30020
+  },
+  {
+    "date": "2018-04",
+    "complaints": 35298
+  },
+  {
+    "date": "2018-05",
+    "complaints": 46811
+  },
+  {
+    "date": "2018-06",
+    "complaints": 49188
+  },
+  {
+    "date": "2018-07",
+    "complaints": 42428
+  },
+  {
+    "date": "2018-08",
+    "complaints": 36593
+  },
+  {
+    "date": "2018-09",
+    "complaints": 44641
+  },
+  {
+    "date": "2018-10",
+    "complaints": 37950
+  },
+  {
+    "date": "2018-11",
+    "complaints": 29689
+  },
+  {
+    "date": "2018-12",
+    "complaints": 30161
+  },
+  {
+    "date": "2019-01",
+    "complaints": 27835
+  },
+  {
+    "date": "2019-02",
+    "complaints": 26790
+  },
+  {
+    "date": "2019-03",
+    "complaints": 33490
+  },
+  {
+    "date": "2019-04",
+    "complaints": 38934
+  },
+  {
+    "date": "2019-05",
+    "complaints": 52202
+  },
+  {
+    "date": "2019-06",
+    "complaints": 58710
+  },
+  {
+    "date": "2019-07",
+    "complaints": 41284
+  },
+  {
+    "date": "2019-08",
+    "complaints": 44951
+  },
+  {
+    "date": "2019-09",
+    "complaints": 51583
+  },
+  {
+    "date": "2019-10",
+    "complaints": 41157
+  },
+  {
+    "date": "2019-11",
+    "complaints": 30991
+  },
+  {
+    "date": "2019-12",
+    "complaints": 30348
+  },
+  {
+    "date": "2020-01",
+    "complaints": 31822
+  },
+  {
+    "date": "2020-02",
+    "complaints": 29657
+  },
+  {
+    "date": "2020-03",
+    "complaints": 37241
+  },
+  {
+    "date": "2020-04",
+    "complaints": 39370
+  },
+  {
+    "date": "2020-05",
+    "complaints": 78053
+  },
+  {
+    "date": "2020-06",
+    "complaints": 107724
+  },
+  {
+    "date": "2020-07",
+    "complaints": 92020
+  },
+  {
+    "date": "2020-08",
+    "complaints": 103451
+  },
+  {
+    "date": "2020-09",
+    "complaints": 101474
+  },
+  {
+    "date": "2020-10",
+    "complaints": 80432
+  },
+  {
+    "date": "2020-11",
+    "complaints": 57096
+  },
+  {
+    "date": "2020-12",
+    "complaints": 43721
+  },
+  {
+    "date": "2021-01",
+    "complaints": 42801
+  },
+  {
+    "date": "2021-02",
+    "complaints": 33853
+  },
+  {
+    "date": "2021-03",
+    "complaints": 51523
+  },
+  {
+    "date": "2021-04",
+    "complaints": 61344
+  },
+  {
+    "date": "2021-05",
+    "complaints": 86904
+  },
+  {
+    "date": "2021-06",
+    "complaints": 89991
+  },
+  {
+    "date": "2021-07",
+    "complaints": 85745
+  },
+  {
+    "date": "2021-08",
+    "complaints": 73591
+  },
+  {
+    "date": "2021-09",
+    "complaints": 83041
+  },
+  {
+    "date": "2021-10",
+    "complaints": 72195
+  },
+  {
+    "date": "2021-11",
+    "complaints": 45397
+  },
+  {
+    "date": "2021-12",
+    "complaints": 41796
+  },
+  {
+    "date": "2022-01",
+    "complaints": 37336
+  },
+  {
+    "date": "2022-02",
+    "complaints": 46269
+  },
+  {
+    "date": "2022-03",
+    "complaints": 48419
+  },
+  {
+    "date": "2022-04",
+    "complaints": 54831
+  },
+  {
+    "date": "2022-05",
+    "complaints": 88993
+  },
+  {
+    "date": "2022-06",
+    "complaints": 76179
+  },
+  {
+    "date": "2022-07",
+    "complaints": 92412
+  },
+  {
+    "date": "2022-08",
+    "complaints": 69910
+  },
+  {
+    "date": "2022-09",
+    "complaints": 81644
+  },
+  {
+    "date": "2022-10",
+    "complaints": 58075
+  },
+  {
+    "date": "2022-11",
+    "complaints": 45596
+  },
+  {
+    "date": "2022-12",
+    "complaints": 39981
+  },
+  {
+    "date": "2023-01",
+    "complaints": 41736
+  },
+  {
+    "date": "2023-02",
+    "complaints": 40448
+  },
+  {
+    "date": "2023-03",
+    "complaints": 48002
+  },
+  {
+    "date": "2023-04",
+    "complaints": 60602
+  },
+  {
+    "date": "2023-05",
+    "complaints": 74891
+  },
+  {
+    "date": "2023-06",
+    "complaints": 68806
+  },
+  {
+    "date": "2023-07",
+    "complaints": 62550
+  },
+  {
+    "date": "2023-08",
+    "complaints": 65568
+  },
+  {
+    "date": "2023-09",
+    "complaints": 60561
+  },
+  {
+    "date": "2023-10",
+    "complaints": 61922
+  },
+  {
+    "date": "2023-11",
+    "complaints": 48464
+  },
+  {
+    "date": "2023-12",
+    "complaints": 52157
+  },
+  {
+    "date": "2024-01",
+    "complaints": 38676
+  },
+  {
+    "date": "2024-02",
+    "complaints": 39977
+  },
+  {
+    "date": "2024-03",
+    "complaints": 50879
+  },
+  {
+    "date": "2024-04",
+    "complaints": 55808
+  },
+  {
+    "date": "2024-05",
+    "complaints": 68274
+  },
+  {
+    "date": "2024-06",
+    "complaints": 75520
+  },
+  {
+    "date": "2024-07",
+    "complaints": 65371
+  },
+  {
+    "date": "2024-08",
+    "complaints": 63383
+  },
+  {
+    "date": "2024-09",
+    "complaints": 87959
+  },
+  {
+    "date": "2024-10",
+    "complaints": 76999
+  },
+  {
+    "date": "2024-11",
+    "complaints": 63752
+  },
+  {
+    "date": "2024-12",
+    "complaints": 66566
+  },
+  {
+    "date": "2025-01",
+    "complaints": 87248
+  },
+  {
+    "date": "2025-02",
+    "complaints": 42506
+  },
+  {
+    "date": "2025-03",
+    "complaints": 53120
+  },
+  {
+    "date": "2025-04",
+    "complaints": 59122
+  },
+  {
+    "date": "2025-05",
+    "complaints": 74538
+  },
+  {
+    "date": "2025-06",
+    "complaints": 72277
+  },
+  {
+    "date": "2025-07",
+    "complaints": 64089
+  },
+  {
+    "date": "2025-08",
+    "complaints": 76835
+  },
+  {
+    "date": "2025-09",
+    "complaints": 75316
+  },
+  {
+    "date": "2025-10",
+    "complaints": 38762
+  }
+]

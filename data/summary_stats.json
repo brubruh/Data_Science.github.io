@@ -1,0 +1,11 @@
+{
+  "totalComplaints": 7785640,
+  "uniqueBoroughs": 6,
+  "timespan": "2010-2024",
+  "dataQuality": "High",
+  "noiseStats": {
+    "mean": 0,
+    "median": 0,
+    "std": 0
+  }
+}
